@@ -1,0 +1,9 @@
+_site/
+*/_site/
+storage/
+media/
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+*.swp

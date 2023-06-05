@@ -1,0 +1,22 @@
+# main links
+main:
+  - title: "トップページ"
+    url: /
+  - title: "伊佐市の各窓口はこちら"
+    url: /contact.html
+  - title: "年齢・学年段階別Q&Aなど"
+    url: /#段階学年別のご案内
+  - title: "『特性』・『障害』って何？"
+    url: /fundamentals/
+  - title: "未就学児対象の各種支援"
+    url: /preschool-facilities.html
+  - title: "小中学生対象の各種支援"
+    url: /elementary-facilities.html
+  - title: "不登校などについて"
+    url: /not-going-school.html
+  - title: "年代別に利用できる福祉サービス・支援制度等"
+    url: /支援制度/
+  - title: "よくあるご質問"
+    url: /#よくあるご質問
+  - title: "このウェブサイトについて"
+    url: /about/

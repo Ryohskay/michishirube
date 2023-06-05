@@ -1,0 +1,152 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+locale: "ja-JP"
+title: "みちしるべ"
+#title_separator:
+subtitle: "伊佐市の子どもと家族の健やかな成長を支える"
+# copyright notice
+name: "Isa City"
+description: "伊佐市内で利用できるさまざまな障害を持つ方への支援について案内するウェブサイトです。"
+#email: 
+description: >-
+  鹿児島県伊佐市で利用できる支援について障害を持つ方やそのご家族へ向けて
+  ご案内するウェブサイトです。お子さんの年代別のQ&Aをはじめ、
+  療育(児童発達支援)、放課後デイケアなどの障害者福祉サービスについての説明、
+  小・中学校の特別支援学級や高校への進学などについての説明、
+  障害年金や障害者手帳などについての解説や、
+  伊佐市役所の窓口の案内など、
+  主に障害のあるお子さんを持つ親の方への
+  紹介・案内を掲載しています。
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://children.jiwakai-akebono.com" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: jekyllrb
+#github_username:  Ryohskay
+#repository:
+#teaser:
+logo: /media/illustration/masthead-birds-no-bg.webp
+#masthead_title:
+breadcrumbs: true
+words_per_minute: 400
+
+#comments
+#reCaptcha:
+#siteKey:
+#secret:
+atom_feed:
+  path:
+  hide: true
+search: true
+search_full_content: true
+#search_provider
+lunr:
+  search_within_pages: true
+#algolia:
+#application_id:
+#index_name:
+#search_only_api_key:
+#powered_by:
+#google
+#search_engine_id:
+#instant_search:
+
+collections:
+  pages:
+    output: true
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: archive
+
+# SEO Related
+#goole_site_verification:
+#bing_site_verification:
+#naver_site_verification:
+#yandex_site_verification:
+#baidu_site_verification:
+
+# Social Sharing
+#twitter:
+#username:
+#facebook:
+#username:
+#app_id:
+#publisher:
+#og_image:
+#social:
+#type:
+#name:
+#links:
+
+# Analytics
+analytics:
+  provider: false
+  #google:
+    #tracking_id:
+    #anonymize_ip: false
+
+# Site Author
+author:
+  name: "Ryosuke Nagata"
+  #avatar:
+
+# Site Footer:
+footer:
+  links:
+    - label: "Home"
+      url: /
+    - label: "このウェブサイトについて (About)"
+      url: /about/
+    - label: "License"
+      url: /license/
+    - label: "伊佐市ウェブサイト (外部リンク)"
+      url: https://www.city.isa.kagoshima.jp/
+
+# Build settings
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default"
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+#include:
+#  - _pages/

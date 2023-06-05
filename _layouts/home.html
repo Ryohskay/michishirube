@@ -1,0 +1,102 @@
+---
+layout: archive
+---
+<style>
+  .home_navigation_btn {
+    position: relative;
+  }
+
+  .btn_img {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  
+  .img_overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .home_navigation_btn:hover .img_overlay {
+    opacity: 0.7;
+  }
+
+  .overlay_text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+</style>
+
+{% include page__hero.html %}
+
+{{ content }}
+
+<div>
+  <div class="page__content">
+    <h2 class="highlight">案内</h2>
+  </div>
+
+  <h4 class="highlight">未就学児</h4>
+  <div class="btn home_navigation_btn">
+    <img src="./media/parent-holding-infant-hand.jpg" class="btn_img">
+    <div class="btn img_overlay">
+      <div class="overlay_text">未就学児</div>
+    </div>
+  </div>
+
+  <h4 class="highlight">小中学生</h4>
+  <div class="btn home_navigation_btn">
+    <img src="./media/parent-holding-infant-hand.jpg" class="btn_img">
+    <div class="btn img_overlay">
+      <div class="overlay_text">小中学生</div>
+    </div>
+  </div>
+
+  <h4 class="highlight">就職</h4>
+  <div class="btn home_navigation_btn">
+    <img src="./media/parent-holding-infant-hand.jpg" class="btn_img">
+    <div class="btn img_overlay">
+      <div class="overlay_text">就職</div>
+    </div>
+  </div>
+
+  <h4 class="highlight">進学</h4>
+  <div class="btn home_navigation_btn">
+    <img src="./media/parent-holding-infant-hand.jpg" class="btn_img">
+    <div class="btn img_overlay">
+      <div class="overlay_text">進学</div>
+    </div>
+  </div>
+</div>
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
+
+{% include paginator.html %}
