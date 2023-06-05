@@ -7,3 +7,4 @@ media/
 .jekyll-metadata
 vendor
 *.swp
+Gemfile.lock
