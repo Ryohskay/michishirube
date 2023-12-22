@@ -142,7 +142,7 @@ exclude:
    - Gemfile.lock
    - LICENSE
    - TODO.md
-   - _pages/
+#   - _pages/
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

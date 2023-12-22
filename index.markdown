@@ -85,7 +85,7 @@ feature_row4:
     alt: "An illustration of birds flying freely"
     title: "インターネット・ゲームとの付き合い方"
     excerpt: "インターネットやゲームとの付き合い方についての公開講座の録画です。"
-    url: "/internet-game"
+    url: "/internet-game.html"
     btn_label: "ネット・ゲームとの付き合い方講座"
     btn_class: "btn--primary"
 ---

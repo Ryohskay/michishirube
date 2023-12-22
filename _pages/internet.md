@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ネット・ゲームとの付き合い方
-permalink: /internet-game
+permalink: /internet-game.html
 ---
 
 現代では、ゲームやインターネットは多くのお子さんが小さな頃から触れる、とても身近な存在になっています。
