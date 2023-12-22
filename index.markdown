@@ -80,6 +80,14 @@ feature_row3:
     url: "/not-going-school.html"
     btn_label: "不登校などについて"
     btn_class: "btn--primary"
+feature_row4:
+  - image_path: /media/illustration/birds-bg-yellow.webp
+    alt: "An illustration of birds flying freely"
+    title: "インターネット・ゲームとの付き合い方"
+    excerpt: "インターネットやゲームとの付き合い方についての公開講座の録画です。"
+    url: "/internet-game"
+    btn_label: "ネット・ゲームとの付き合い方講座"
+    btn_class: "btn--primary"
 ---
 
 # 伊佐市の子どもとその家族の健やかな成長を支える。
@@ -136,3 +144,6 @@ feature_row3:
 
 # よくあるご質問
 {% include feature_row id="feature_row3" type="left" %}
+
+# その他の案内・情報
+{% include feature_row id="feature_row4" type="left" %}
