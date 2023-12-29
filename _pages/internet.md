@@ -9,7 +9,7 @@ permalink: /internet-game.html
 このページでは、ネットやゲームとの付き合い方などについての情報を紹介します。
 
 ## 講演「ネット・ゲームとの付き合い方について考える」
-2023年10月21日に、医療法人慈和会大口病院の松崎医師が伊佐市菱刈で行なった講演会の録画です。
+2023年10月21日に、独立行政法人国立病院機構 久里浜医療センターの松崎尊信先生が伊佐市菱刈で行なった講演会の録画です。
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rDInTMmJmFk?si=IsEPP9AmuXjP-Xga" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

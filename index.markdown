@@ -81,8 +81,8 @@ feature_row3:
     btn_label: "不登校などについて"
     btn_class: "btn--primary"
 feature_row4:
-  - image_path: /media/illustration/birds-bg-yellow.webp
-    alt: "An illustration of birds flying freely"
+  - image_path: /media/images/game-controller.webp
+    alt: "PC game pads or console controllers. Photo by 来弥 on photo-ac.com"
     title: "インターネット・ゲームとの付き合い方"
     excerpt: "インターネットやゲームとの付き合い方についての公開講座の録画です。"
     url: "/internet-game.html"
